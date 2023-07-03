@@ -99,7 +99,7 @@ const Page = () => {
       setTimeElapsed(0);
       setMoveCount(0);
       setShownCount(0);
-      setLevelGame(6);
+      setLevelGame(1);
     }
 
     if (levelGame <= 6) {
