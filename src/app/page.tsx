@@ -206,11 +206,11 @@ const Page = () => {
         
         </div>
       
-      <div className="flex-1 w-full h-full flex justify-center items-start sm:px-4 overflow-hidden">
+      <div className="flex-1 w-full h-full flex justify-center items-center sm:px-4 overflow-hidden">
         <div className="flex justify-center items-center">
           {playing &&
               // <div className={`grid ${levelGame <= 2 ? 'grid-cols-2' : levelGame === 3 ? 'grid-cols-3' : levelGame === 4 ? 'grid-cols-4' : levelGame === 5 ? 'grid-cols-5' : 'grid-cols-6'} gap-4 p-10 rounded-xl ${checkAnimation ? 'animate-gridEffectIn' : ''} shadow-2xl`}>
-              <div className={`grid ${levelGame === 1 ? 'grid-cols-2' : 'grid-cols-4'} gap-2 justify-center justify-items-center items-center min-w-[310px] max-w-md sm:max-w-xl md:max-w-[600px] lg:max-w-[800px] mt-5 rounded-xl ${checkAnimation ? 'animate-gridEffectIn' : ''} shadow-2xl`}>
+              <div className={`grid ${levelGame === 1 ? 'grid-cols-2' : 'grid-cols-4'} gap-2 py-4 justify-center justify-items-center items-center min-w-[310px] max-w-md sm:max-w-xl md:max-w-[600px] lg:max-w-[800px] mt-5 rounded-xl ${checkAnimation ? 'animate-gridEffectIn' : ''} shadow-2xl`}>
                 {gridItems.map((item, index) => (
                   <GridItem 
                     key={index}
