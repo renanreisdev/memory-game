@@ -1,3 +1,5 @@
+<a href='https://dryicons.com/icon-packs/symbolize-icons-set'> Icon by Dryicons </a>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
