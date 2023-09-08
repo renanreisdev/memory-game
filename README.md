@@ -1,42 +1,55 @@
-[DEMO](https://memory-game-chi-jade.vercel.app/)
-![image](https://github.com/renanreisdev/memory-game/assets/81393388/59dc9805-7671-4d8d-a791-1a050e90e883)
-![image](https://github.com/renanreisdev/memory-game/assets/81393388/998296e4-c3f1-43ee-a3fc-b542b2103ea4)
+## 💻 Sobre o projeto
 
+Dev Memory é um jogo da memória que contém 6 níveis de dificuldade, onde o usuário vai avançando conforme for ganhando. [View Demo](https://memory-game-chi-jade.vercel.app/)
 
+## 🎨 Layout
+### Web
+![Memory Desktop][gifDesktop]
 
-<a href='https://dryicons.com/icon-packs/symbolize-icons-set'> Icon by Dryicons </a>
+### Mobile
+![Memory Mobile][gifMobile]
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
 
-## Getting Started
+## 🛠 Tecnologias
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![TypeScript][TypeScript.ts]][TypeScript-url]
+* [![Tailwind][Tailwind.css]][Tailwind-url]
 
-First, run the development server:
-
+## 🚀 Como executar o projeto
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone este repositório
+$ git clone https://github.com/renanreisdev/memory-game.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd memory-game/
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Créditos
+* Ícones - [Icon by Dryicons](https://dryicons.com/icon-packs/symbolize-icons-set)
+* Curso - [B7Web](https://b7web.com.br)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  Projeto desenvolvido com base da aula do curso, porém utilizei outras técnologias.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<!-- MARKDOWN LINKS & IMAGES -->
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[TypeScript.ts]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://www.typescriptlang.org/
+[Tailwind.css]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+[vscode-url]: https://code.visualstudio.com/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[gifDesktop]: https://github.com/renanreisdev/memory-game/assets/81393388/9eb1df12-afe7-481e-991e-65868992137e
+[gifMobile]: https://github.com/renanreisdev/memory-game/assets/81393388/998005fe-ba4a-45eb-a4b4-cd316da47789
